@@ -1,21 +1,14 @@
-<h1>React Latest (Vite | TypeScript)</h1>
+# Storybook `.test` Syntax in CSF
 
-<p>
-  This is project generated to serve as a reproduction starter for Storybook.
-</p>
+📖 **Read the RFC for full details**: [Storybook `.test` RFC](https://github.com/storybookjs/storybook/discussions/30119)
 
-<a  href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/react-vite/default-ts/after-storybook?preset=node=">
-  View it in Stackblitz
-</a>
+### How to test
+```
+npm install
+```
 
-<h3>Testing instructions</h3>
+```
+npm run storybook
+```
 
-<p>Install dependencies:</p>
-<pre>
-  yarn
-</pre>
-
-<p>Run Storybook:</p>
-<pre>
-  yarn storybook
-</pre>
+Then visit the stories and check the [/src/stories/Form.stories.tsx](/src/stories/Form.stories.tsx) file
